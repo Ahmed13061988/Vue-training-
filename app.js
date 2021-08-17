@@ -3,7 +3,8 @@ new Vue({
     data: {
         name : "ahmed", 
         age: 31, 
-        salary: 57000
+        salary: 57000, 
+        classes: ['blue', 'underline']
     }, 
     methods: {
       sayMyName(){
