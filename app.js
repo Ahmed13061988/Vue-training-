@@ -17,6 +17,10 @@ new Vue({
 
       putYourName(name){
           return name + " "+this.age
+      },
+
+      sayHi(message){
+        return alert(message)
       }
     }
 })
