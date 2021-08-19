@@ -18,12 +18,13 @@
 </head>
 <body>
     <div id ='app'>
-      <h2>{{sayMyName()}}</h2>
-      <h1>{{sayMySalary()}}</h1>
-      <h1>{{putYourName("Ali")}}</h1>
-      <button v-on:click="sayHi('Ali')">Alert</button>
-      <h1 v-bind:class = "classes">Hello</h1>
-      <button v-on:click="salary++">Increase salary</button>
+      <h1>{{name}}</h1>
+      <h1>{{age}}</h1>
+      <h1>Email: {{email}}</h1>
+      <h1>Gender: {{gender}}</h1>
+      <h1>{{salary}}</h1>
+       <img  v-bind:src = "picture" />
+      <button v-on:click="changeUser()">Change user</button>
     </div>
 
     <script src = 'app.js'></script>
